@@ -1,0 +1,22 @@
+.container{
+    border-radius: 24px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    padding: 3.5rem;
+    display: flex;
+    justify-content: center;
+    overflow-y: auto;
+    max-height: 550px;
+    @media only screen and (max-width: 600px) {
+      padding: 1rem;
+    }
+  }
+
+  .inputGrid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }

@@ -1,0 +1,26 @@
+nav{
+    max-width: 100%;
+    background: black;
+    color: white;
+    height: 10vh;
+  }
+
+nav > div{
+    width: 60%;
+    padding: 1rem;
+    margin:auto;
+    @media only screen and (max-width: 600px) {
+      width: 95%;
+      padding: 0.5rem;
+    }
+  }
+  
+  h1{
+    font-size: 2rem;
+  }
+  
+  .navHeader{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
